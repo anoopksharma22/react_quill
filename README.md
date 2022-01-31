@@ -5,3 +5,4 @@
 - Quill js
 - Image resize option after upload
 - Formula support
+- Markdown shorcut support
