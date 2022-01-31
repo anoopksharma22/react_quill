@@ -7,6 +7,7 @@ import { options } from "./editor_options";
 import "katex";
 import katex from "katex";
 import "katex/dist/katex.min.css";
+import MarkdownShortcuts from "quill-markdown-shortcuts";
 
 const CreateNote = () => {
   const [quill, setQuill] = useState();
@@ -17,6 +18,7 @@ const CreateNote = () => {
     const editor = document.createElement("div");
     wraper.append(editor);
     Quill.register("modules/blotFormatter", BlotFormatter);
+    Quill.register("modules/markdownShortcuts", MarkdownShortcuts);
     const q = new Quill(editor, options);
     setQuill(q);
   }, []);

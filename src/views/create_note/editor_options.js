@@ -24,5 +24,6 @@ export const options = {
   modules: {
     toolbar: toolbarOptions,
     blotFormatter: {},
+    markdownShortcuts: {},
   },
 };
