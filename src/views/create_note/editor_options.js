@@ -18,7 +18,7 @@ export const toolbarOptions = [
 ];
 
 export const options = {
-  debug: "info",
+  // debug: "info",
   placeholder: "Compose an epic...",
   theme: "snow",
   modules: {
